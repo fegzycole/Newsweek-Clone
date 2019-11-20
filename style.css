@@ -123,8 +123,7 @@ body {
 }
 
 .side-box {
-  width: 60px;
-  height: 35px;
+  padding: 5px 7px;
   background-color: #f2f2f2;
   position: absolute;
   bottom: 0;
@@ -134,6 +133,10 @@ body {
 
 .side-box-a {
   color: #f72210;
+}
+
+.no-border {
+  border-radius: 0;
 }
 
 .b-bottom {
@@ -177,6 +180,28 @@ body {
   background-color: #272727;
   color: #c2d4d7;
   text-decoration: none;
+}
+
+.black-red {
+  color: black;
+  font-size: 17px;
+  font-family: Roboto-bold, sans-serif;
+}
+
+.black-red:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.author {
+  font-size: 14px;
+  font-family: Roboto-bold, sans-serif;
+  margin-top: -3px;
+}
+
+.rounded-img {
+  width: 63px;
+  height: 63px;
 }
 
 @media (min-width: 576px) {
