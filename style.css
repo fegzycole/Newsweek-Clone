@@ -83,10 +83,6 @@ body {
   font-weight: 100;
 }
 
-.big-container {
-  width: 100%;
-}
-
 .bg-img {
   position: relative;
 }
@@ -193,6 +189,10 @@ body {
   text-decoration: none;
 }
 
+.black-red-sm {
+  font-size: 16px;
+}
+
 .author {
   font-size: 14px;
   font-family: Roboto-bold, sans-serif;
@@ -205,7 +205,7 @@ body {
 }
 
 .small-card {
-  width: 65%;
+  width: 250px;
 }
 
 .small-card-inner {
@@ -237,12 +237,31 @@ body {
   font-size: 19px;
 }
 
+.bg-ash:hover {
+  background-color: #dbdcdd;
+}
+
+.mag-content {
+  width: 200px;
+}
+
+.cover {
+  font-size: 17px;
+  background-color: #f72210;
+}
+
+.world {
+  font-size: 17px;
+  color: #f72210;
+}
+
 @media (min-width: 576px) {
 }
 
 @media (min-width: 768px) {
   .article-one {
     width: 54%;
+    margin-left: 4%;
   }
 
   .article-two {
@@ -268,6 +287,18 @@ body {
 
   .half-width {
     width: 50%;
+  }
+
+  .three-articles-md {
+    width: 31%;
+  }
+
+  .three-container {
+    width: 72%;
+  }
+
+  .see-features {
+    width: 25.5%;
   }
 }
 
@@ -341,20 +372,24 @@ body {
   }
 
   .article-one {
-    width: 40%;
-    margin: 0 3%;
+    width: 42%;
+    margin-left: 0%;
   }
 
   .article-two {
-    width: 27%;
+    width: 26%;
   }
 
   .article-three {
-    width: 27%;
+    width: 26%;
   }
 
   .half-width {
     width: 100%;
+  } 
+
+  .top-section {
+    overflow-x: hidden;
   }
 }
 
