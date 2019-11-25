@@ -133,7 +133,7 @@ body {
   background-color: #f2f2f2;
   position: absolute;
   bottom: 0;
-  left: 0; 
+  left: 0;
   font-family: Roboto-bold, sans-serif;
 }
 
@@ -185,7 +185,7 @@ body {
 }
 
 .c-t-text {
-  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39, 39, 39, 0.5);
   margin-bottom: 10px;
 }
@@ -239,7 +239,7 @@ body {
 
 .small-card-header {
   font-family: Roboto-bold, sans-serif;
-  line-height: 1.0;
+  line-height: 1;
 }
 
 .small-text {
@@ -276,7 +276,7 @@ body {
 }
 
 .roboto-bold {
-  font-family: Roboto-bold, sans-serif
+  font-family: Roboto-bold, sans-serif;
 }
 
 .parag-2 {
@@ -379,23 +379,23 @@ footer {
   color: #666;
 }
 
-.genericon-facebook:before {
+.genericon-facebook::before {
   content: "\f203";
 }
 
-.genericon-twitter:before {
+.genericon-twitter::before {
   content: "\f202";
 }
 
-.genericon-instagram:before {
+.genericon-instagram::before {
   content: "\f215";
 }
 
-.genericon-tumblr:before {
+.genericon-tumblr::before {
   content: "\f214";
 }
 
-.genericon-linkedin:before {
+.genericon-linkedin::before {
   content: "\f207";
 }
 
@@ -594,7 +594,7 @@ footer {
 
   .half-width {
     width: 100%;
-  } 
+  }
 
   .top-section {
     overflow-x: hidden;
