@@ -18,9 +18,9 @@ This project consists of replicating the [The Newsweek](https://www.newsweek.com
 2. CSS3
 3. Bootstrap CDN
 
-## Github Pages Link
+## Github Pages 
 
-Under construction
+<https://fegzycole.github.io/Newsweek-Clone/>
 
 ## License
 
